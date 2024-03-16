@@ -164,7 +164,7 @@ const Quiz = () => {
       >
         <CustomButton onClick={handlePreviousQuestion} text="Prev Question" />
         <CustomButton onClick={handleNextQuestion} text="Next Question" />
-        <BackButton onClick={handleRevealAnswer} text="Answer" />
+        
       </div>
       <div
         style={{
@@ -192,3 +192,4 @@ const Quiz = () => {
 };
 
 export default Quiz;
+// <BackButton onClick={handleRevealAnswer} text="Answer" />
