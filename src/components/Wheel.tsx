@@ -150,7 +150,7 @@ export default function Wheel() {
   return (
     <div className="App">
       <BackButton
-        onClick={() => navigation(`/my-wheel`)}
+        onClick={() => navigation(`/my-wheel-new`)}
         text="Back"
       ></BackButton>
       <h1>Spinning 🥃 Wheel</h1>

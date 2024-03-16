@@ -37,7 +37,7 @@ const Quiz = () => {
       }}
     >
       <BackButton
-        onClick={() => navigation(`/my-wheel`)}
+        onClick={() => navigation(`/my-wheel-new`)}
         text="Back"
       ></BackButton>
       <div
