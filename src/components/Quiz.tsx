@@ -151,9 +151,7 @@ const Quiz = () => {
           </div>
         </div>
       </div>
-      {revealAnswer && (
-        <h3>Correct Answer: {currentQuestion.correctIndex + 1}</h3>
-      )}
+      
       <div
         style={{
           display: "flex",
@@ -192,3 +190,10 @@ const Quiz = () => {
 };
 
 export default Quiz;
+
+`
+{revealAnswer && (
+  <h3>Correct Answer: {currentQuestion.correctIndex + 1}</h3>
+)}
+`
+
