@@ -161,7 +161,7 @@ const Quiz = () => {
       >
         <CustomButton onClick={handlePreviousQuestion} text="Prev Question" />
         <CustomButton onClick={handleNextQuestion} text="Next Question" />
-        <BackButton onClick={handleRevealAnswer} text="Answer" />
+        
       </div>
       <div
         style={{
@@ -194,4 +194,5 @@ export default Quiz;
 {revealAnswer && (
   <h3>Correct Answer: {currentQuestion.correctIndex + 1}</h3>
 )}
+<BackButton onClick={handleRevealAnswer} text="Answer" />
 */
