@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/my-wheel" element={<Home />} />
+        <Route path="/my-wheel-new" element={<Home />} />
         <Route path="/wheel" element={<Wheel />} />
         <Route path="/quiz" element={<Quiz />} />
       </Routes>
