@@ -1,0 +1,27 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to fill the viewport */
+    text-align: center;
+    position: relative; /* Ensure the App container is positioned relative for absolute positioning of children */
+  }
+  .display {
+    margin-bottom: 20px;
+  }
+  
+  #selector {
+    margin-top: 10px; /* Adjust the margin-top value as needed */
+    display: block; /* Ensure the selector is displayed as a block element */
+    position: absolute;
+    top: 45%; /* Position it 50% from the top */
+    left: 50%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%); /* Center it precisely */
+  }
+  
+  #wheel {
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+    position: relative; /* Ensure the wheel is positioned relative for absolute positioning of children */
+  }
+  
