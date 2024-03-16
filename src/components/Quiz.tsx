@@ -190,8 +190,8 @@ const Quiz = () => {
 
 export default Quiz;
 
-`
+/** 
 {revealAnswer && (
   <h3>Correct Answer: {currentQuestion.correctIndex + 1}</h3>
 )}
-`
+*/
