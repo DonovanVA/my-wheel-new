@@ -19,11 +19,11 @@ export default function Home() {
     >
       <h1>Donny's drinking Games! 🍻</h1>
       <CustomButton
-        onClick={() => navigation(`/wheel`)}
+        onClick={() => navigation(`/my-wheel-new/wheel`)}
         text="wheel"
       ></CustomButton>
       <CustomButton
-        onClick={() => navigation(`/quiz`)}
+        onClick={() => navigation(`/my-wheel-new/quiz`)}
         text="quiz"
       ></CustomButton>
     </div>
