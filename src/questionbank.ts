@@ -28,7 +28,7 @@ export const questions: question[] = [
      Don steps into the toilet, with the scenario below, according to the standard urinal conduct, which urinal should Don occupy first?
     `,
     diagram: [
-      ["[ ]", ""],
+      ["[]", ""],
       ["U\u2081", "X"],
       ["U\u2082", "X"],
       ["U\u2083", "X"],
@@ -50,7 +50,7 @@ export const questions: question[] = [
     title: "Question 3",
     details: `Suppose now that U\u2083 is occupied, which one should Don occupy?`,
     diagram: [
-      ["[ ]", ""],
+      ["[]", ""],
       ["U\u2081", "X"],
       ["U\u2082", "X"],
       ["U\u2083", "O"],
@@ -87,7 +87,7 @@ export const questions: question[] = [
     title: "Question 6",
     details: `The diargam below shows a scenario of 8 urinals, now U\u2083 has suddenly broke down while Don was using it, which urinal should he shift to?`,
     diagram: [
-      ["[ ]", ""],
+      ["[]", ""],
       ["U\u2081", "X"],
       ["U\u2082", "X"],
       ["F\u2083", "X"],
@@ -137,7 +137,7 @@ export const questions: question[] = [
     title: "Question 10",
     details: `U\u2083 has been successfully repaired, however, an advesary, A, decides to take up U\u2082 when U\u2081 is already occupied, what is the correct order of movement by the people using the urinals?`,
     diagram: [
-      ["[ ]", ""],
+      ["[]", ""],
       ["U\u2081", "O"],
       ["U\u2082", "A"],
       ["U\u2083", "X"],
